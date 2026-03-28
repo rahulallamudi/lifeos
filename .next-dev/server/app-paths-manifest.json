@@ -1,0 +1,8 @@
+{
+  "/landing/page": "app/landing/page.js",
+  "/(app)/chitti/page": "app/(app)/chitti/page.js",
+  "/(app)/today/page": "app/(app)/today/page.js",
+  "/(app)/dashboard/page": "app/(app)/dashboard/page.js",
+  "/(app)/notes/page": "app/(app)/notes/page.js",
+  "/(app)/daily-tasks/page": "app/(app)/daily-tasks/page.js"
+}

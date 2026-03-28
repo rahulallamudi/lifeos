@@ -1,0 +1,48 @@
+@import "react-calendar/dist/Calendar.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: black;
+  font-weight: 500;
+  background-color: #f5f5f5;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+.lifeos-calendar {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  font-family: inherit;
+}
+
+.lifeos-calendar .react-calendar__navigation button {
+  border-radius: 9999px;
+  min-height: 40px;
+  color: #111827;
+}
+
+.lifeos-calendar .react-calendar__tile {
+  border-radius: 16px;
+  padding: 0.85rem 0.25rem;
+}
+
+.lifeos-calendar .react-calendar__tile--now {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.lifeos-calendar .react-calendar__tile--active {
+  background: #ef4444;
+  color: white;
+}
+
+.lifeos-calendar .react-calendar__tile:enabled:hover,
+.lifeos-calendar .react-calendar__tile:enabled:focus {
+  background: #fef2f2;
+}
